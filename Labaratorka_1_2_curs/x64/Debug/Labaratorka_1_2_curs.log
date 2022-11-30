@@ -1,0 +1,3 @@
+﻿  Vector.cpp
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_1_2_curs\Vector.cpp(42): warning C4715: Vector::operator[]: значение возвращается не при всех путях выполнения
+  Labaratorka_1_2_curs.vcxproj -> C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_1_2_curs\x64\Debug\Labaratorka_1_2_curs.exe
