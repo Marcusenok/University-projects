@@ -1,0 +1,3 @@
+﻿  1.cpp
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_13\1.cpp(18,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "int *"
+  Labaratorka_13.vcxproj -> C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_13\Debug\Zadanie_1.exe
