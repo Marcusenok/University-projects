@@ -59,9 +59,9 @@ void Figure::SetY(int _y)
 	if (_y > 0) x = _y;
 }
 
-void Figure::SetSize(double sz) 
-{ 
-	if (sz > 0) size = sz; 
+void Figure::SetSize(double _size)
+{
+	if (_size > 0) size = _size;
 }
 
 void Figure::SetColor(int _color)
@@ -91,14 +91,14 @@ int Circle::GetRadius()
 	return radius;
 }
 
-void Circle::SetRadius(int _radius)
-{
-	radius = _radius;
-}
-
 void Circle::Show()
 {
 	cout << "\nCircle\n";
+}
+
+int Circle::GetType()
+{
+	return 1;
 }
 #pragma endregion
 
@@ -143,6 +143,11 @@ void Rectangle::SetW(int _w)
 void Rectangle::Show()
 {
 	cout << "\nRectangle\n";
+}
+
+int Rectangle::GetType()
+{
+	return 2;
 }
 #pragma endregion
 
@@ -199,5 +204,10 @@ void Triangle::SetC(int _c)
 void Triangle::Show()
 {
 	cout << "\nTriangle\n";
+}
+
+int Triangle::GetType()
+{
+	return 3;
 }
 #pragma endregion

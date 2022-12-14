@@ -22,8 +22,9 @@ public:
 	void MoveTo(int _x, int _y);
 	void SetX(int _x);
 	void SetY(int _y);
-	void SetSize(double sz);
+	void SetSize(double _size);
 	virtual void Show() = 0;
+	virtual int GetType() = 0;
 };
 
 class Circle : public Figure 
@@ -34,8 +35,8 @@ public:
 	Circle();
 	Circle(int _x, int _y, int _color, int _radius);
 	int GetRadius();
-	void SetRadius(int _radius);
 	void Show();
+	int GetType();
 };
 
 class Rectangle : public Figure
@@ -51,6 +52,7 @@ public:
 	void SetH(int _h);
 	void SetW(int _w);
 	void Show();
+	int GetType();
 };
 
 class Triangle : public Figure
@@ -69,4 +71,5 @@ public:
 	void SetB(int _b);
 	void SetC(int _c);
 	void Show();
+	int GetType();
 };

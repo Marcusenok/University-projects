@@ -1,8 +1,8 @@
 #include<iostream>
+#include <typeinfo>
 #include "Figures.h"
 
 using namespace std;
-
 
 int main()
 {
@@ -36,12 +36,14 @@ int main()
 			case 1:
 				delete pFig[index_now];
 				pFig[index_now] = NULL;
+				break;
 			case 2:
 				int new_color;
 				cout << "Color now:", pFig[index_now]->GetColor();
 				cout << "Color now:"; 
 				cin >> new_color;
 				pFig[index_now]->SetColor(new_color);
+				break;
 			case 3:
 				int new_x, new_y;
 				cout << "New X:";
@@ -49,6 +51,12 @@ int main()
 				cout << "New Y:";
 				cin >> new_y;
 				pFig[index_now]->MoveTo(new_x, new_y);
+				break;
+			case 4:
+				double new_size;
+				cin >> new_size;
+				pFig[index_now] -> SetSize(new_size);
+				break;
 			}
 			break;
 		case 3:

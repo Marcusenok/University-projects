@@ -1,2 +1,48 @@
-﻿  main.cpp
-  Labaratorka_2_2_curs.vcxproj -> C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\x64\Debug\Labaratorka_2_2_curs.exe
+﻿  Figures.cpp
+  main.cpp
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(11): error C2259: "Circle": невозможно создать экземпляр абстрактного класса
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(30): message : см. объявление "Circle"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(11): message : из-за следующих членов:
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(11): message : void Figure::SetSize(void): абстрактный
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(25): message : см. объявление "Figure::SetSize"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(11,22): error C2259: "Circle": невозможно создать экземпляр абстрактного класса
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(30): message : см. объявление "Circle"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(11,22): message : из-за следующих членов:
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(11,22): message : void Figure::SetSize(void): абстрактный
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(25): message : см. объявление "Figure::SetSize"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(12): error C2259: "Rectangle": невозможно создать экземпляр абстрактного класса
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(43): message : см. объявление "Rectangle"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(12): message : из-за следующих членов:
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(12): message : void Figure::SetSize(void): абстрактный
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(25): message : см. объявление "Figure::SetSize"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(12,25): error C2259: "Rectangle": невозможно создать экземпляр абстрактного класса
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(43): message : см. объявление "Rectangle"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(12,25): message : из-за следующих членов:
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(12,25): message : void Figure::SetSize(void): абстрактный
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(25): message : см. объявление "Figure::SetSize"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(13): error C2259: "Triangle": невозможно создать экземпляр абстрактного класса
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(60): message : см. объявление "Triangle"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(13): message : из-за следующих членов:
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(13): message : void Figure::SetSize(void): абстрактный
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(25): message : см. объявление "Figure::SetSize"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(13,24): error C2259: "Triangle": невозможно создать экземпляр абстрактного класса
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(60): message : см. объявление "Triangle"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(13,24): message : из-за следующих членов:
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(13,24): message : void Figure::SetSize(void): абстрактный
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(25): message : см. объявление "Figure::SetSize"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(89): error C2259: "Circle": невозможно создать экземпляр абстрактного класса
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(30): message : см. объявление "Circle"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(89): message : из-за следующих членов:
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(89): message : void Figure::SetSize(void): абстрактный
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(25): message : см. объявление "Figure::SetSize"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(92): error C2259: "Rectangle": невозможно создать экземпляр абстрактного класса
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(43): message : см. объявление "Rectangle"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(92): message : из-за следующих членов:
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(92): message : void Figure::SetSize(void): абстрактный
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(25): message : см. объявление "Figure::SetSize"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(95): error C2259: "Triangle": невозможно создать экземпляр абстрактного класса
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(60): message : см. объявление "Triangle"
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(95): message : из-за следующих членов:
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\main.cpp(95): message : void Figure::SetSize(void): абстрактный
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\Labaratorka_2_2_curs\Figures.h(25): message : см. объявление "Figure::SetSize"
+  Создание кода...
