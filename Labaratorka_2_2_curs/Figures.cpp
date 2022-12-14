@@ -64,18 +64,17 @@ void Figure::SetSize(double sz)
 	if (sz > 0) size = sz; 
 }
 
-void Figure::Show()
+void Figure::SetColor(int _color)
 {
-	cout << "\nFigure\n";
+	color = _color;
 }
-
 #pragma endregion
 
 #pragma region Circle
 Circle::Circle()
 {
-	radius = 1;
 	Init();
+	radius = 1;
 }
 
 Circle::Circle(int _x, int _y, int _color, int _radius)
@@ -100,5 +99,105 @@ void Circle::SetRadius(int _radius)
 void Circle::Show()
 {
 	cout << "\nCircle\n";
+}
+#pragma endregion
+
+#pragma region Rectangle
+Rectangle::Rectangle()
+{
+	Init();
+	int w = 1;
+	int h = 1;
+}
+
+Rectangle::Rectangle(int _x, int _y, int _color, int _w, int _h)
+{
+	Init();
+	x = _x;
+	y = _y;
+	color = _color;
+	w = _w;
+	h = _h;
+}
+
+int Rectangle::GetH()
+{
+	return h;
+}
+
+void Rectangle::SetH(int _h)
+{
+	h = _h;
+}
+
+int Rectangle::GetW()
+{
+	return w;
+}
+
+void Rectangle::SetW(int _w)
+{
+	w = _w;
+}
+
+void Rectangle::Show()
+{
+	cout << "\nRectangle\n";
+}
+#pragma endregion
+
+#pragma region Triangle
+Triangle::Triangle()
+{
+	Init();
+	int a = 1;
+	int b = 1;
+	int c = 1;
+}
+
+Triangle::Triangle(int _x, int _y, int _color, int _a, int _b, int _c)
+{
+	Init();
+	x = _x;
+	y = _y;
+	color = _color;
+	a = _a;
+	b = _b;
+	c = _c;
+}
+
+int Triangle::GetA()
+{
+	return a;
+}
+
+int Triangle::GetB()
+{
+	return b;
+}
+
+int Triangle::GetC()
+{
+	return c;
+}
+
+void Triangle::SetA(int _a)
+{
+	a = _a;
+}
+
+void Triangle::SetB(int _b)
+{
+	b = _b;
+}
+
+void Triangle::SetC(int _c)
+{
+	c = _c;
+}
+
+void Triangle::Show()
+{
+	cout << "\nTriangle\n";
 }
 #pragma endregion
