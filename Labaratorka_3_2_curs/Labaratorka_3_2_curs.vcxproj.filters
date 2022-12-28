@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Dynamic_bidirectional_list.h">
+    <ClInclude Include="DynamicList.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
