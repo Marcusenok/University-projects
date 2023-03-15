@@ -1,29 +1,20 @@
-#include<iostream>
-#include"DynamicList.h"
+#include <iostream>
+#include "Vector.h"
 
 using namespace std;
 
+
 int main()
 {
-	system("chcp 1251");
-	system("cls");
+	Vector a(2);
+	Vector b(2);
 
-	DynamicList<int> List(100);
-	DynamicList<double> List1(100.123);
+	cin >> a;
+	cin >> b;
 
-	List + 11;
-	List + 13;
-	List1 + 3.2;
-	List1 + 4.5;
+	cout << a[1] << "\n";
 
-	DynamicList<double> List2 = List1;
-
-	List2 + 6.66;
-	List2 + 7.77;
-
-	List.Print();
-	List1.Print();
-	List2.Print();
-
+	cout << (a < b) << "\n";
+	cout << (a != 3.4) << "\n";
 	return 0;
-}
+}
