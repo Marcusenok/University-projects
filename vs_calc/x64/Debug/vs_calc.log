@@ -1,0 +1,8 @@
+﻿  BigInt.cpp
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\2 курс\vs_calc\src\math\BigInt.cpp(87,39): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\2 курс\vs_calc\src\math\BigInt.cpp(88,43): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\2 курс\vs_calc\src\math\BigInt.cpp(123,43): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\2 курс\vs_calc\src\math\BigInt.cpp(124,47): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\2 курс\vs_calc\src\math\BigInt.cpp(189,5): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\КАНИНА\Desktop\Учёба\Программирование\2 курс\vs_calc\src\math\BigInt.cpp(211,5): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  vs_calc.vcxproj -> C:\Users\КАНИНА\Desktop\Учёба\Программирование\2 курс\vs_calc\x64\Debug\vs_calc.exe
